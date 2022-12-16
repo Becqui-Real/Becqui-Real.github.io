@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 
 .header{
@@ -74,14 +73,17 @@
     font-size: 62px;
 }
 
-[class="fa-solid fa-bars"]{
+#xmark{
     display: none;
 }
 
-[class="fa-regular fa-rectangle-xmark"]{
+#menu{
     display: none;
 }
 @media(max-width: 700px) {
+    *{
+        overflow-x: hidden;
+    }
     .title-text h1{
         font-size: 52px;
     }
@@ -105,10 +107,10 @@
         z-index: 2;
         padding-top: 0px;
         transition: 1s;
-        overflow: unset;
+        
     } 
 
-    [class="fa-regular fa-rectangle-xmark"]{
+    #xmark{
         width: 150px;
         display: block;
         color: #fff;
@@ -118,7 +120,7 @@
         transition: 1s;
     }
     
-    [class="fa-solid fa-bars"]{
+    #menu{
         right: 30vw;
         display: block;
         font-size: 30px;
