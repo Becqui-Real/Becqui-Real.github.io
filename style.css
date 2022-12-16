@@ -73,16 +73,18 @@
     font-size: 62px;
 }
 
-#xmark{
+#menu{
     display: none;
 }
 
-#menu{
+#xmark{
     display: none;
+  
 }
 @media(max-width: 700px) {
     *{
         overflow-x: hidden;
+        overflow-y: auto;
     }
     .title-text h1{
         font-size: 52px;
@@ -132,7 +134,4 @@
         padding-left: 30px;
         padding-bottom: 15px;
     }
-
-    
-
 }
