@@ -38,6 +38,7 @@
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    font-size: 25px;
 }
 
 .header ul li a{
@@ -70,7 +71,12 @@
 }
 
 .title-text h1{
-    font-size: 62px;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.title-text p{
+    font-weight: 300;
 }
 
 #menu{
@@ -135,3 +141,49 @@
         padding-bottom: 15px;
     }
 }
+
+/* Events */
+
+.recents{
+    font-family: Poppins;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.recents h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.recents p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.fb-posts{
+    margin-top: 50px;
+}
+.fb-posts h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+@media (max-width: 700px){
+    .fb-posts{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    }
+
+    .fb-posts iframe{
+    display: inline;
+    margin: 2px 2px;
+    float: center-left;
+    width: auto;
+    border-radius: 2px;
+    } 
+    
+}
+
