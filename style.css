@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    background-color: antiquewhite; 
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -46,7 +50,7 @@
     text-decoration: none;
 }
 
-.header ul li::after{
+/* .header ul li::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -57,6 +61,58 @@
 }
 
 .header ul li:hover::after{
+    width: 100%;
+} */
+
+.Home::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.Socials::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.Socials:hover::after{
+    width: 100%;
+}
+
+.About::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.About:hover::after{
+    width: 100%;
+}
+
+.Credits::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.Credits:hover::after{
     width: 100%;
 }
 
@@ -149,7 +205,7 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 100px; 
 }
 
 .recents h1{
@@ -158,11 +214,12 @@
 }
 
 .recents p{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
 }
 
 .fb-posts{
+    background-color: antiquewhite; 
     margin-top: 50px;
 }
 .fb-posts h1{
@@ -171,6 +228,14 @@
 }
 
 @media (max-width: 700px){
+    .recents h1{
+        font-size: 35px;
+    }
+
+    .fb-posts h1{
+        font-size: 20px;
+    }
+
     .fb-posts{
     width: auto;
     height: auto;
