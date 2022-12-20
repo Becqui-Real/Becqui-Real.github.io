@@ -218,6 +218,10 @@ body{
     font-weight: 300;
 }
 
+.socilas div{
+    margin-top: 30px;
+}
+
 .socials-list h1{
     font-size: 30px;
     margin: 30px;
@@ -228,7 +232,7 @@ body{
     height: 500px;
 }
 
-@media (max-width: 700px){
+/*  @media (max-width: 700px){
     .socials h1{
         font-size: 35px;
     }
@@ -249,6 +253,33 @@ body{
     float: center-left;
     width: auto;
     border-radius: 2px;
-    }  
+    }   
     
+} */
+
+.comments{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    padding-top: 15px;
+
+    font-family: Poppins;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.comments h1{
+    font-size: 30px;
+}
+
+.comments p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.comments div{
+    margin-top: 30px;
+    overflow: auto;
 }
