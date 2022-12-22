@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+
+    font-family: Poppins;
 }
 
 body{
@@ -268,18 +270,4 @@ body{
     margin: auto;
     text-align: center;
     padding-top: 100px;
-}
-
-.comments h1{
-    font-size: 30px;
-}
-
-.comments p{
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.comments div{
-    margin-top: 30px;
-    overflow: auto;
 }
